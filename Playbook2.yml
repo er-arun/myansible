@@ -1,7 +1,7 @@
 # yum and service modules with sudo access
 
 ---
-- hosts: web
+- hosts: webservers
   become: yes
   vars: 
     username: arun
